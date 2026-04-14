@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravn — Autonomous Engineering</title>
+    <meta
+      name="description"
+      content="Ravn — autonomous engineering built on conviction, not generation."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content="Ravn — Autonomous Engineering" />
+    <meta
+      property="og:description"
+      content="An autonomous software engineer. Conviction before code."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ravn.so" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Ravn — Autonomous Engineering" />
+    <meta
+      name="twitter:description"
+      content="An autonomous software engineer. Conviction before code."
+    />
+    <meta name="theme-color" content="#020410" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <div class="page">
+      <header>
+        <a href="/" class="brand" aria-label="Ravn home">
+          <img src="assets/brand/logo-light.svg" alt="" width="24" height="24" />
+          <span>RAVN</span>
+        </a>
+        <a class="header-cta" href="mailto:hello@ravn.so">Request Access</a>
+      </header>
+
+      <main>
+        <p class="eyebrow">Private Beta</p>
+        <h1>Conviction<br />before code.</h1>
+        <p class="sub">
+          What separates generation from engineering is the depth of thought
+          behind every decision.
+        </p>
+        <a class="cta-button" href="mailto:hello@ravn.so">Request Access</a>
+      </main>
+
+      <section class="about" aria-label="What is Ravn">
+        <div class="about-inner">
+          <p class="section-label">What is Ravn</p>
+          <h2>An autonomous software engineer.</h2>
+          <p class="about-lead">
+            Fully autonomous. Picks up tickets from Jira, asks clarifying
+            questions in Slack, reasons through your codebase, and ships
+            verified pull requests — no hand-holding required.
+          </p>
+
+          <div class="pillars">
+            <div class="pillar">
+              <h3>Autonomous</h3>
+              <p>
+                Works from your backlog. Reads tickets, asks questions when
+                context is missing, and delivers without waiting on you.
+              </p>
+            </div>
+            <div class="pillar">
+              <h3>Deliberate</h3>
+              <p>
+                Reasons through problems step by step. Solutions are earned,
+                never guessed.
+              </p>
+            </div>
+            <div class="pillar">
+              <h3>Verified</h3>
+              <p>
+                Proves its own work before anything reaches your branch.
+                Every change earns its confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--
+      <section class="logos-bar" aria-label="Trusted by">
+        <p class="logos-label">Trusted by engineers from</p>
+        <div class="logos-row">
+          <img src="assets/logos/company.svg" alt="Company" height="28" />
+        </div>
+      </section>
+      -->
+
+      <footer>
+        <p>&copy; <span id="year">2026</span> Ravn</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
